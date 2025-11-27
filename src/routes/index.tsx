@@ -270,7 +270,21 @@ function LandingPage() {
       {/* --- FOOTER --- */}
       <footer className="border-t border-slate-200 bg-white py-8 dark:border-slate-800 dark:bg-slate-950">
         <div className="container mx-auto flex flex-col items-center justify-between px-4 text-sm text-slate-500 md:flex-row">
-          <p>© 2024 StarterKit Inc. Open Source.</p>
+          {/* Bagian Credit Kamu */}
+          <p className="text-center md:text-left">
+            © 2025 Created by{" "}
+            <a
+              href="https://github.com/Zadeka"
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium underline underline-offset-4 hover:text-slate-900 dark:hover:text-slate-300"
+            >
+              Zadeka
+            </a>
+            . Open Source.
+          </p>
+
+          {/* Bagian Tools (Tetap) */}
           <p className="mt-2 flex items-center gap-1 md:mt-0">
             Made with <span className="text-red-500">❤</span> using Vite &
             React
