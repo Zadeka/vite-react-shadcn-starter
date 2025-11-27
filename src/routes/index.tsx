@@ -84,7 +84,7 @@ function LandingPage() {
           </div>
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/Zadeka/vite-react-shadcn-starter"
               target="_blank"
               rel="noreferrer"
               className="hidden text-sm font-medium text-slate-600 hover:underline sm:block dark:text-slate-400"
@@ -121,10 +121,17 @@ function LandingPage() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button
+                  asChild
                   size="lg"
                   className="ring-offset-background cursor-pointer rounded-full bg-blue-600 px-8 text-white shadow-lg shadow-blue-500/20 hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none disabled:pointer-events-none disabled:opacity-50"
                 >
-                  Get Started <ArrowRight className="ml-2 h-4 w-4" />
+                  <a
+                    href="https://github.com/Zadeka/vite-react-shadcn-starter"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Get Started <ArrowRight className="ml-2 h-4 w-4" />
+                  </a>
                 </Button>
                 {/* <Button
                   variant="outline"
