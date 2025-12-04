@@ -84,7 +84,7 @@ function LandingPage() {
           </div>
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/Zadeka/vite-react-shadcn-starter"
+              href="https://react.dev/"
               target="_blank"
               rel="noreferrer"
               className="hidden text-sm font-medium text-slate-600 hover:underline sm:block dark:text-slate-400"
